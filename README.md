@@ -1,7 +1,7 @@
-/**Go-API**/
+#Go-API
 simple Go program using the Gin web framework for managing a collection of books. The program provides endpoints to get a list of books, get a specific book by ID, create a new book, checkout a book (decrease its quantity), and return a book (increase its quantity).
 
-/**Explanation of the main components**/
+#Explanation of the main components
 
 Book Struct:
 
@@ -38,5 +38,5 @@ POST /books: Create a new book.
 PATCH /checkout: Checkout a book.
 PATCH /return: Return a book.
 
-/**Note**/
+#Note
  The PATCH HTTP method is typically used for partial updates, and in this case, it's used for the checkout and return operations. However, these operations could be implemented using the PUT method as well. The choice between PATCH and PUT depends on your design preferences and RESTful API principles.
